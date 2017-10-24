@@ -70,4 +70,24 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+header {
+  position: relative;
+  outline: 1px solid yellow;
+}
 
+.box-head {
+  display: inline-block;
+}
+
+li {
+  display: inline;
+  list-style: none;
+}
+
+.logo{
+  width: 80px;
+  position: absolute;
+  right: 5%;
+  top:25%;
+  transform: translate(-50);
+}
