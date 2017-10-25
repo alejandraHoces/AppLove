@@ -147,7 +147,7 @@ header {
 /*colocando tamaño de letra*/
 h4 {
     font-size: 16px;
-    
+
 }
 
 /*colocando el tamaño de mi imagen*/
@@ -194,10 +194,12 @@ h4 {
 /*.proyecto .producto {
 
 }*/
+
+/*colocando pies de pagina texto centrado ,tamaño de caja */
 footer{
   text-align: center;
   height: 70px;
   background-color: grey;
-  color: whitesmoke;
+  color: white;
   padding-top: 7px;
 }
