@@ -12,6 +12,7 @@
 }
 
 body {
+  font-family: 'Raleway', sans-serif;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
@@ -70,24 +71,133 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
-header {
-  position: relative;
-  outline: 1px solid yellow;
-}
 
-.box-head {
+/*Colocando el encabezado de mi pagina*/
+header {
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+  /*bottom: 540px;*/
+  /*outline: 1px solid yellow;*/
+}
+/*seleccionando la clase de nombre link y colocandole estilos en linea sin subrallado*/
+.page {
+  font-weight: 700;
+  padding: 21px;
+  list-style: none;
   display: inline-block;
 }
 
-li {
-  display: inline;
-  list-style: none;
+/*seleccionando mis links en el encabesado y colocandole un pading(separacion entre ellos)*/
+.box-head {
+  padding: 10px 70px;
+  overflow: auto;
 }
 
-.logo{
-  width: 80px;
+/*seleccionando mi logo(imagen)y posicionandolo y colocando su tamaño*/
+.logo {
+  width: 70px;
   position: absolute;
-  right: 5%;
-  top:25%;
-  transform: translate(-50);
+  top: 23px;
+  right: 150px;
+}
+/*colocando en la primera seccion una imagen de fondo y colocandole su tamaño(largo de imagen)*/
+#bg-home {
+  background-image: url(../assets/images/bg-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  margin-top: 80px;
+  height: 554px;
+}
+/*añadiendo un pading que permita que el contenido baje y colocando color a las letras del contenido */
+#bg-home .container {
+  padding-top: 80px;
+  color: white;
+}
+/*colocano un tamaño de letra a la clase de nombre text.home*/
+.container .text-home {
+    font-size: 50px;
+}
+/*colocando caracteristicas (color de letra,profundidad,bordes y color de fondo)al boton "view service" (class=btn-home)*/
+.container .btn-home {
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  background-color: #00cc7a;
+  display: inline-block;
+  margin-top: 63px;
+}
+/*colocando el color de contenedor */
+#service {
+  background-color: #f07575;
+  color: white;
+  text-align: center;
+  padding: 70px 7px;
+
+}
+/*colocando el tamaño de letra de el titulo*/
+.text-services {
+  font-size: 35px;
+  letter-spacing: 2px;
+
+}
+/*colocando tamaño de letra*/
+h4 {
+    font-size: 16px;
+    
+}
+
+/*colocando el tamaño de mi imagen*/
+.boxxes .imagen {
+  width: 200px;
+}
+/*añadiendo tamaño a la caja que contiene las imagenes el margen y el interlineado */
+.boxxes {
+  display: inline-block;
+  width: 30%;
+  margin-top:63px;
+  font-size: 20px;
+  line-height: 1px;
+}
+
+
+/*alineando el tercer titulo de la pagina y colocando un color de fondo*/
+#work {
+  text-align: center;
+  background-color: white;
+  padding: 70px 7px;
+}
+/*seleccionando la clase de nombre title-tres y dandole tamaño a la letra*/
+#work .title-tres {
+  font-size: 35px;
+}
+/*seleccionado la etiqueta h4 y colocandole el tamaño a la letra*/
+.container h4 {
+  font-size: 18px;
+}
+/*seleccionando imagen y colocando el tamaño*/
+.computer {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+/*seleccionando la seccion imagenes y colocando un fondo..to be continuara*/
+.proyecto {
+  background-color: white;
+  color:#737373;
+  text-align: center;
+}
+
+/*.proyecto .producto {
+
+}*/
+footer{
+  text-align: center;
+  height: 70px;
+  background-color: grey;
+  color: whitesmoke;
+  padding-top: 7px;
 }
