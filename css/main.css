@@ -166,36 +166,25 @@ h4 {
 
 /*alineando el tercer titulo de la pagina y colocando un color de fondo*/
 #work {
-  text-align: center;
   background-color: white;
-  padding: 70px 7px;
+  text-align: center;
+  padding-top: 70px;
 }
-/*seleccionando la clase de nombre title-tres y dandole tamaño a la letra*/
-#work .title-tres {
+/*colocando tamaño al titulo*/
+.container .title-tres {
   font-size: 35px;
 }
-/*seleccionado la etiqueta h4 y colocandole el tamaño a la letra*/
-.container h4 {
-  font-size: 18px;
+/*colocando color al texto*/
+.container .text-work {
+  color: #4d4d4d;
 }
-/*seleccionando imagen y colocando el tamaño*/
-.computer {
+/*dandole tamaño a la imagen de computadora*/
+.container .computer {
   width: 100%;
-  height: 100%;
-  margin-top: 20px;
-}
-/*seleccionando la seccion imagenes y colocando un fondo..to be continuara*/
-.proyecto {
-  background-color: white;
-  color:#737373;
-  text-align: center;
 }
 
-/*.proyecto .producto {
 
-}*/
-
-/*colocando pies de pagina texto centrado ,tamaño de caja */
+/*colocando pie de pagina texto centrado ,tamaño de caja */
 footer{
   text-align: center;
   height: 70px;
